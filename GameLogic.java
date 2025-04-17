@@ -76,5 +76,6 @@ public class GameLogic {
         System.out.println("WINNER: Player " + (highestIndex + 1) + " has the most cards!");
         // Close the scanner to prevent resource leaks
         scan.close();
+        
     }
 }

@@ -10,6 +10,7 @@ public class Operations {
         }
     }
 
+    
     public static void compactDeck(Cards[] deck) {
         int index = 0; // Pointer for the next position to place a non-null card
         for (int i = 0; i < deck.length; i++) {

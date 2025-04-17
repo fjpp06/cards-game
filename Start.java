@@ -8,6 +8,7 @@ public class Start {
             }
         }
         
+        
         Operations.shuffleDeck(deck); // shuffle the deck
         Cards[][] playerCards = Operations.distributeCards(deck, numPlayers, numCardsPerPlayer); // distribute cards to players
         System.out.println("Game started! Deck generated and cards distributed.");

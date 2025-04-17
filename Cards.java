@@ -2,6 +2,7 @@ public class Cards {
     int cardValue;
     int cardSuit;
 
+    
     public Cards(int value, int suit) {
         this.cardValue = value;
         this.cardSuit = suit;
